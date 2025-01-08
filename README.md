@@ -1,14 +1,14 @@
 # **Phase Change Material Analysis**
-This repository contains the code, data, and documentation for analyzing the behavior of phase change materials (PCMs) under various thermal conditions. PCMs are substances that absorb or release thermal energy during phase transitions, such as melting or solidification, and are widely used in thermal energy storage systems.
+This repository contains the code, data, and documentation for analyzing the melting behavior of phase change materials (PCMs) using the Lattice Boltzmann Method (LBM). PCMs absorb or release thermal energy during phase transitions and are widely used in thermal energy storage systems.
 
 ## **Overview**
-The purpose of this project is to simulate and analyze the thermal behavior of PCMs inside a controlled environment using computational fluid dynamics (CFD). By leveraging advanced simulation techniques, the project aims to model heat transfer, phase transitions, and other critical phenomena to optimize PCM performance for energy storage applications.
+The purpose of this project is to simulate and analyze the melting process of PCMs inside a controlled environment using LBM. By leveraging the OpenLB library, this project aims to model heat transfer, phase transitions, and other critical phenomena to optimize PCM performance for energy storage applications.
 
 ### **Key Features**
-- Simulation of melting and solidification processes.
-- Heat transfer modeling using the enthalpy-porosity approach.
-- Grid-based analysis for temperature distribution and phase state.
-- Analysis of PCM behavior in rectangular cavities with heating elements.
+- Simulation of the melting process of PCMs.
+- Heat transfer modeling using LBM with enthalpy-based methods.
+- Grid-based analysis for temperature distribution and phase states.
+- Analysis of PCM melting behavior in rectangular cavities with heating elements.
 
 ## **Simulation Setup**
 ### **Geometry**
@@ -20,16 +20,16 @@ The domain is a rectangular cavity with the following specifications:
   - The right wall is heated, while the other walls are thermally insulated.
 
 ### **Phase Change Material**
-- Material: [Specify PCM used, e.g., paraffin wax, salt hydrates].
-- Melting range: [Provide range, e.g., 45–55 °C].
+- Material: Lauric Acid
+- Melting range: 42–47 °C
 - Thermal properties:
-  - Latent heat: [Value, e.g., 200 kJ/kg].
-  - Thermal conductivity: [Value, e.g., 0.2 W/mK].
+  - Latent heat: 187210 kJ/kg
+  - Thermal conductivity: 0.15 W/mK
 
 ### **Simulation Techniques**
-- **Numerical Method**: Finite Volume Method (FVM).
-- **Solver**: [Specify solver, e.g., Ansys Fluent, OpenFOAM].
-- **Grid Type**: Structured grid for enhanced accuracy.
+- **Numerical Method**: Lattice Boltzmann Method (LBM).
+- **Library**: [OpenLB](https://www.openlb.net/).
+- **Grid Type**: Uniform structured grid for simulation accuracy.
 - **Boundary Conditions**:
   - Heated wall: Constant heat flux or temperature.
   - Insulated walls: No heat transfer.
@@ -38,12 +38,13 @@ The domain is a rectangular cavity with the following specifications:
 The analysis provides:
 - **Temperature Distribution**: A grid-based map showing temperature variations.
 - **Phase Change Progress**: Visualization of liquid and solid fractions over time.
-- **Heat Flux Analysis**: Quantification of heat transfer rates.
 
 ## **Usage**
 ### **Prerequisites**
-- Python 3.x (for data processing and visualization).
-- Required libraries: `numpy`, `matplotlib`, `pandas`, [add any CFD-specific libraries or tools].
+- OpenLB installed on your system ([Installation Guide](https://www.openlb.net/installation/)).
+- A C++ compiler compatible with OpenLB.
+- Python 3.x (optional, for data post-processing and visualization).
+- Required Python libraries: `numpy`, `matplotlib`, `pandas` (optional).
 
 ### **Steps to Run the Simulation**
 1. Clone this repository:
