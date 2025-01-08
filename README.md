@@ -31,7 +31,7 @@ The domain is a rectangular cavity with the following specifications:
 - **Library**: [OpenLB](https://www.openlb.net/).
 - **Grid Type**: Uniform structured grid for simulation accuracy.
 - **Boundary Conditions**:
-  - Heated wall: Constant heat flux or temperature.
+  - Heated wall: Constant temperature (70°C).
   - Insulated walls: No heat transfer.
 
 ## **Results**
