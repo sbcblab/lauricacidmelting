@@ -8,10 +8,7 @@ The purpose of this project is to simulate and analyze the melting process of PC
 <img src="ProblemDescription.png" alt="Phase Change Material" width="300" />
 
 ### Watch the Simulation
-<video width="400" height="225" controls>
-  <source src="VelocityField.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Download the video: VelocityField.mp4](VelocityField.mp4)
 
 ### **Key Features**
 - Simulation of the melting process of PCMs.
