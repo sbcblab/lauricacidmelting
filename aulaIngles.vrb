@@ -1,0 +1,45 @@
+\frametitle{Everyone is a Protagonist}\framesubtitle {}
+\begin{columns}[T]
+	\begin{column}{0.33\linewidth}
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width=1\textwidth]{figs/aa.png}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{0.33\linewidth}
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width=1\textwidth]{figs/stride.png}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{0.33\linewidth}
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width=1\textwidth]{figs/dssp2.png}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\tiny{\vspace{-0.0cm}
+	\begin{thebibliography}{99}
+		\bibitem[Dorn, 2017]{p0001} B. Borguesan, M. Inostroza, M. Dorn (2017)
+\newblock NIAS-Server: Neighbors Influence of Amino acids and Secondary Structures in Proteins. \emph{Journal of Computational Biology}.v. 24, p. 255-265, 2017.
+	\end{thebibliography}
+
+	\begin{thebibliography}{99}
+		\bibitem[Frishman, 1995]{p1} Frishman, D., Argos, P. (1995)
+		\newblock Knowledge-based protein secondary structure assignment. Proteins 23, 566–579.
+	\end{thebibliography}
+
+	\begin{thebibliography}{99}
+		\bibitem[Kabsch, 1983]{p1} Kabsch, W.; Sander, C. (1983)
+		\newblock Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features, Biopolymers.  22 2577-2637.
+
+					\bibitem[Dorn, 2018]{p1} R.Ligabue-Braun, B. Borguesan, H. Verli, M. Krause, M. Dorn (2018)
+		\newblock Everyone is a protagonist: residue conformational preferences in high-resolution protein structures. \emph{Journal of Computational Biology}. v. 25, p. 451-465, 2018.
+	\end{thebibliography}
+
+
+}
