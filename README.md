@@ -49,5 +49,5 @@ The analysis provides:
 ### **Steps to Run the Simulation**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/pcm-analysis.git
-   cd pcm-analysis
+   git clone https://github.com/sbcblab/lauricacidmelting.git
+   cd lauricacidmelting
