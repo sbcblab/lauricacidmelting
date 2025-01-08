@@ -1,11 +1,7 @@
 # **Phase Change Material Analysis**
-
 This repository contains the code, data, and documentation for analyzing the behavior of phase change materials (PCMs) under various thermal conditions. PCMs are substances that absorb or release thermal energy during phase transitions, such as melting or solidification, and are widely used in thermal energy storage systems.
 
----
-
 ## **Overview**
-
 The purpose of this project is to simulate and analyze the thermal behavior of PCMs inside a controlled environment using computational fluid dynamics (CFD). By leveraging advanced simulation techniques, the project aims to model heat transfer, phase transitions, and other critical phenomena to optimize PCM performance for energy storage applications.
 
 ### **Key Features**
@@ -14,10 +10,7 @@ The purpose of this project is to simulate and analyze the thermal behavior of P
 - Grid-based analysis for temperature distribution and phase state.
 - Analysis of PCM behavior in rectangular cavities with heating elements.
 
----
-
 ## **Simulation Setup**
-
 ### **Geometry**
 The domain is a rectangular cavity with the following specifications:
 - **Height**: 120 mm
@@ -41,18 +34,13 @@ The domain is a rectangular cavity with the following specifications:
   - Heated wall: Constant heat flux or temperature.
   - Insulated walls: No heat transfer.
 
----
-
 ## **Results**
 The analysis provides:
 - **Temperature Distribution**: A grid-based map showing temperature variations.
 - **Phase Change Progress**: Visualization of liquid and solid fractions over time.
 - **Heat Flux Analysis**: Quantification of heat transfer rates.
 
----
-
 ## **Usage**
-
 ### **Prerequisites**
 - Python 3.x (for data processing and visualization).
 - Required libraries: `numpy`, `matplotlib`, `pandas`, [add any CFD-specific libraries or tools].
