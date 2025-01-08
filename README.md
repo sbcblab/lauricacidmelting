@@ -4,6 +4,8 @@ This repository contains the code, data, and documentation for analyzing the mel
 ## **Overview**
 The purpose of this project is to simulate and analyze the melting process of PCMs inside a controlled environment using LBM. By leveraging the OpenLB library, this project aims to model heat transfer, phase transitions, and other critical phenomena to optimize PCM performance for energy storage applications.
 
+<img src="ProblemDescription.png" alt="Phase Change Material" width="400" />
+
 ### **Key Features**
 - Simulation of the melting process of PCMs.
 - Heat transfer modeling using LBM with enthalpy-based methods.
