@@ -31,7 +31,7 @@ The domain is a rectangular cavity with the following specifications:
 - Material: Lauric Acid
 - Melting range: 42–47 °C
 - Thermal properties:
-  - Latent heat: 187210 kJ/kg
+  - Latent heat: 187210 J/kg
   - Thermal conductivity: 0.15 W/mK
 
 ### **Simulation Techniques**
