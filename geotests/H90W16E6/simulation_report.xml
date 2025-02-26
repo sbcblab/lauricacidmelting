@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+  <general_information>
+    <name>Lauric_Acid_H90W16E6</name>
+    <simulation_id>001</simulation_id>
+    <date>2025-02-20</date>
+    <authors>
+      <author>Alexandre Tacques</author>
+      <author>Marcio Dorn</author>
+    </authors>
+    <description>
+      The simulation is implemented to explore the impact of fin design and position on the total melting time of Lauric Acid in a rectangular geometry.
+    </description>
+    <software>
+      <name>OpenLB</name>
+      <version>1.7</version>
+    </software>
+    <notes>Based on galliummelting.cpp from OpenLB.</notes>
+    <how_to_cite>…</how_to_cite>
+  </general_information>
+  <system_setup>
+    <total_physical_time>200 min (3.3 hours)</total_physical_time>
+    <geometry>
+      <space>2D</space>
+      <type>Rectangular</type>
+      <dimensions>
+        <height>0.12 m</height>
+        <width>0.05 m</width>
+      </dimensions>
+    </geometry>
+    <material>
+      <pcm>
+        <name>Lauric Acid</name>
+        <melting_point>47.5°C</melting_point>
+        <heat_capacity>187210 J/kg·K</heat_capacity>
+        <density>885 kg/m³</density>
+      </pcm>
+      <enhancement>
+        <technique>Fins</technique>
+        <number_of_fins>1</number_of_fins>
+        <material>Aluminum</material>
+        <fin_thickness>6</fin_thickness>
+        <fin_width>16.67</fin_width>
+        <position>(16.67, 90)</position>
+      </enhancement>
+    </material>
+    <boundary_and_initial_conditions>
+      <heat_transfer_type>fixed temperature at right wall</heat_transfer_type>
+      <insulation>all other walls are adiabatic, with bounce-back condition</insulation>
+      <heat_source_temperature>70°C</heat_source_temperature>
+      <pcm_initial_temperature>25°C</pcm_initial_temperature>
+    </boundary_and_initial_conditions>
+  </system_setup>
+  <simulation_links>
+    <input_files>input_files/inputtmp.zip</input_files>
+    <results_files>results/resultstmp.zip</results_files>
+    <visualization>analysis/visualizations.ipynb</visualization>
+  </simulation_links>
+</simulation>
+
