@@ -51,7 +51,7 @@ The analysis provides:
 
 ## **Usage**
 ### **Prerequisites**
-- OpenLB installed on your system ([Installation Guide](https://www.openlb.net/installation/)).
+- OpenLB 1.7 installed on your system ([Installation Guide](https://www.openlb.net/installation/)).
 - A C++ compiler compatible with OpenLB.
 - Python 3.x (optional, for data post-processing and visualization).
 - Required Python libraries: `numpy`, `matplotlib`, `pandas` (optional).
